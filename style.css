@@ -67,7 +67,18 @@ p {
   margin: 40px 0;
 }
 
-
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #eff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
 
 body {
   width: 100%;
@@ -370,7 +381,43 @@ flex-wrap: wrap;
   right: 15px;
   padding-top: 15px;
 }
+/* ==========feature box ends=========== */
+
+/* ======banner section box========== */
 
 
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(img/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
 
 
+#banner h4{
+color: #eff;
+font-size: 16px;
+}
+
+#banner h2{
+  color: #eff;
+  font-size: 30px;
+  padding: 10px 0;
+  }
+
+  #banner span{
+    color: rgb(245, 86, 12);
+   
+    }
+
+    #banner button:hover{
+      background-color: #088178;
+      color: #eff;
+    }
+    /* ========banner ends========== */
