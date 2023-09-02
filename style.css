@@ -283,6 +283,7 @@ body {
   border-radius: 20px;
 }
 
+
 #product1 .pro .des {
   text-align: start;
   padding: 10px 0;
@@ -504,6 +505,7 @@ body {
   background-color: #041e42;
 }
 
+
 #newsletter h4{
   font-size: 22px;
   font-weight: 700;
@@ -523,10 +525,14 @@ body {
 #newsletter span{
   color: #ffbd27;
 }
+
+
 #newsletter .form{
   display: flex;
   width: 40%;
 }
+
+
 
 #newsletter  input{
   height: 3.125rem;
@@ -539,6 +545,8 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+
 
 #newsletter button{
   background-color: #088178;
@@ -553,16 +561,56 @@ body {
 /* =============newsletter ends=========== */
 
 /* ============footer starts========== */
+
 footer{
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
-footer row{
+
+
+footer .col{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
+
+
+
+
+.col .logo{
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+
+
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+
+
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
 
 /* ===============footer starts=========== */
