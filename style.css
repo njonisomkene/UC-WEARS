@@ -92,19 +92,17 @@ body {
   left: 0;
   z-index: 1;
 }
+
 #header .logo {
-  position: relative;
-  height: 75px;
-  width: 300px;
-  margin-left: -75px;
-  margin-bottom: -50px;
-  top: -25px;
+width: 160px;
+height: 60px;
 }
 
 #navbar {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom-left-radius: 200px;
 }
 
 #navbar li {
@@ -564,7 +562,7 @@ body {
 
 footer{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -612,5 +610,39 @@ footer a{
   margin-bottom: 10px;
 }
 
+footer .follow{
+  margin-top: 50px;
+}
 
-/* ===============footer starts=========== */
+
+footer .follow i{
+  color: #465b52;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+
+}
+
+footer .follow i:hover,
+footer  a:hover{
+  color: #088178;
+}
+
+footer .copyright{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+/* ===============footer ends=========== */
+
+
