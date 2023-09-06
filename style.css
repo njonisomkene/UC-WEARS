@@ -655,7 +655,7 @@ footer .copyright {
     background-color: #e3e6f3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
-    transition: 0.3s;
+    transition: 0.8s;
   }
 
   #navbar.active {
@@ -675,5 +675,15 @@ footer .copyright {
     color: #6e4545;
     font-size: 24px;
     padding-left: 20px;
+  }
+  #close{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #6e4545;
+    font-size: 24px;
+  }
+  #lg-bag{
+    display: none;
   }
 }
