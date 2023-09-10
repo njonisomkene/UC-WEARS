@@ -644,8 +644,10 @@ footer .copyright {
 
 /* ===============footer ends=========== */
 
-/* ============shop page============== */
+/* ============SHOP PAGE============== */
 
+
+/* ===========pagination section======== */
 #page-header{
   background-image: url(img/banner/b1.jpg);
   width: 100%;
@@ -674,6 +676,10 @@ footer .copyright {
   border-radius: 4px;
   color: #eff;
   font-weight: 600;
+}
+#pagination a i{
+font: size 16px;
+font-weight: 600;
 }
 
 
