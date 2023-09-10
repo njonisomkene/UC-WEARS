@@ -663,6 +663,19 @@ footer .copyright {
   color: #eff;
 }
 
+#pagination{
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #eff;
+  font-weight: 600;
+}
+
 
 
 /* ========media queries for responsivenes====== */
