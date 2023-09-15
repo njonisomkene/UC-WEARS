@@ -1209,6 +1209,11 @@ padding: 10px 5px 10px 15px;
   #newsletter .form {
     width: 70%;
   }
+  /* ====header page design======= */
+  #header .logo {
+    width: 250px;
+    height: 80px;
+}
 
   /* =====about page====== */
 
