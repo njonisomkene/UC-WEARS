@@ -741,8 +741,13 @@ margin-bottom: 10px;
 }
 
 
-#prodetails .single-pro-details button{
+#prodetails .single-pro-details button {
   background-color: #088178;
+  color: #eff;
+}
+
+#prodetails .single-pro-details button a{
+  text-decoration: none;
   color: #eff;
 }
 
