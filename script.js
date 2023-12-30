@@ -16,3 +16,8 @@ if (close) {
         nav .classList.remove('active');
     })
 }
+
+
+//script for popup
+
+
